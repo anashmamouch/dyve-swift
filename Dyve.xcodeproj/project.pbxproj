@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A83D15A41C89C5E1008DE953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15A31C89C5E1008DE953 /* AppDelegate.swift */; };
+		A83D15A61C89C5E1008DE953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15A51C89C5E1008DE953 /* ViewController.swift */; };
+		A83D15A91C89C5E1008DE953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83D15A71C89C5E1008DE953 /* Main.storyboard */; };
+		A83D15AB1C89C5E1008DE953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83D15AA1C89C5E1008DE953 /* Assets.xcassets */; };
+		A83D15AE1C89C5E1008DE953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83D15AC1C89C5E1008DE953 /* LaunchScreen.storyboard */; };
+		A83D15B91C89C5E1008DE953 /* DyveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15B81C89C5E1008DE953 /* DyveTests.swift */; };
+		A83D15C41C89C5E1008DE953 /* DyveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15C31C89C5E1008DE953 /* DyveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A83D15B51C89C5E1008DE953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83D15981C89C5E0008DE953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D159F1C89C5E0008DE953;
+			remoteInfo = Dyve;
+		};
+		A83D15C01C89C5E1008DE953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83D15981C89C5E0008DE953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D159F1C89C5E0008DE953;
+			remoteInfo = Dyve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A83D15A01C89C5E1008DE953 /* Dyve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D15A31C89C5E1008DE953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A83D15A51C89C5E1008DE953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A83D15A81C89C5E1008DE953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A83D15AA1C89C5E1008DE953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A83D15AD1C89C5E1008DE953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A83D15AF1C89C5E1008DE953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83D15B41C89C5E1008DE953 /* DyveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D15B81C89C5E1008DE953 /* DyveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyveTests.swift; sourceTree = "<group>"; };
+		A83D15BA1C89C5E1008DE953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83D15BF1C89C5E1008DE953 /* DyveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D15C31C89C5E1008DE953 /* DyveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyveUITests.swift; sourceTree = "<group>"; };
+		A83D15C51C89C5E1008DE953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83D159D1C89C5E0008DE953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D15B11C89C5E1008DE953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D15BC1C89C5E1008DE953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83D15971C89C5E0008DE953 = {
+			isa = PBXGroup;
+			children = (
+				A83D15A21C89C5E1008DE953 /* Dyve */,
+				A83D15B71C89C5E1008DE953 /* DyveTests */,
+				A83D15C21C89C5E1008DE953 /* DyveUITests */,
+				A83D15A11C89C5E1008DE953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A83D15A11C89C5E1008DE953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A83D15A01C89C5E1008DE953 /* Dyve.app */,
+				A83D15B41C89C5E1008DE953 /* DyveTests.xctest */,
+				A83D15BF1C89C5E1008DE953 /* DyveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83D15A21C89C5E1008DE953 /* Dyve */ = {
+			isa = PBXGroup;
+			children = (
+				A83D15A31C89C5E1008DE953 /* AppDelegate.swift */,
+				A83D15A51C89C5E1008DE953 /* ViewController.swift */,
+				A83D15A71C89C5E1008DE953 /* Main.storyboard */,
+				A83D15AA1C89C5E1008DE953 /* Assets.xcassets */,
+				A83D15AC1C89C5E1008DE953 /* LaunchScreen.storyboard */,
+				A83D15AF1C89C5E1008DE953 /* Info.plist */,
+			);
+			path = Dyve;
+			sourceTree = "<group>";
+		};
+		A83D15B71C89C5E1008DE953 /* DyveTests */ = {
+			isa = PBXGroup;
+			children = (
+				A83D15B81C89C5E1008DE953 /* DyveTests.swift */,
+				A83D15BA1C89C5E1008DE953 /* Info.plist */,
+			);
+			path = DyveTests;
+			sourceTree = "<group>";
+		};
+		A83D15C21C89C5E1008DE953 /* DyveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A83D15C31C89C5E1008DE953 /* DyveUITests.swift */,
+				A83D15C51C89C5E1008DE953 /* Info.plist */,
+			);
+			path = DyveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A83D159F1C89C5E0008DE953 /* Dyve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D15C81C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "Dyve" */;
+			buildPhases = (
+				A83D159C1C89C5E0008DE953 /* Sources */,
+				A83D159D1C89C5E0008DE953 /* Frameworks */,
+				A83D159E1C89C5E0008DE953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dyve;
+			productName = Dyve;
+			productReference = A83D15A01C89C5E1008DE953 /* Dyve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A83D15B31C89C5E1008DE953 /* DyveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D15CB1C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "DyveTests" */;
+			buildPhases = (
+				A83D15B01C89C5E1008DE953 /* Sources */,
+				A83D15B11C89C5E1008DE953 /* Frameworks */,
+				A83D15B21C89C5E1008DE953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83D15B61C89C5E1008DE953 /* PBXTargetDependency */,
+			);
+			name = DyveTests;
+			productName = DyveTests;
+			productReference = A83D15B41C89C5E1008DE953 /* DyveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A83D15BE1C89C5E1008DE953 /* DyveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D15CE1C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "DyveUITests" */;
+			buildPhases = (
+				A83D15BB1C89C5E1008DE953 /* Sources */,
+				A83D15BC1C89C5E1008DE953 /* Frameworks */,
+				A83D15BD1C89C5E1008DE953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83D15C11C89C5E1008DE953 /* PBXTargetDependency */,
+			);
+			name = DyveUITests;
+			productName = DyveUITests;
+			productReference = A83D15BF1C89C5E1008DE953 /* DyveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83D15981C89C5E0008DE953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Benzino;
+				TargetAttributes = {
+					A83D159F1C89C5E0008DE953 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A83D15B31C89C5E1008DE953 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A83D159F1C89C5E0008DE953;
+					};
+					A83D15BE1C89C5E1008DE953 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A83D159F1C89C5E0008DE953;
+					};
+				};
+			};
+			buildConfigurationList = A83D159B1C89C5E0008DE953 /* Build configuration list for PBXProject "Dyve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A83D15971C89C5E0008DE953;
+			productRefGroup = A83D15A11C89C5E1008DE953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83D159F1C89C5E0008DE953 /* Dyve */,
+				A83D15B31C89C5E1008DE953 /* DyveTests */,
+				A83D15BE1C89C5E1008DE953 /* DyveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83D159E1C89C5E0008DE953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83D15AE1C89C5E1008DE953 /* LaunchScreen.storyboard in Resources */,
+				A83D15AB1C89C5E1008DE953 /* Assets.xcassets in Resources */,
+				A83D15A91C89C5E1008DE953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D15B21C89C5E1008DE953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D15BD1C89C5E1008DE953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A83D159C1C89C5E0008DE953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83D15A61C89C5E1008DE953 /* ViewController.swift in Sources */,
+				A83D15A41C89C5E1008DE953 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D15B01C89C5E1008DE953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83D15B91C89C5E1008DE953 /* DyveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D15BB1C89C5E1008DE953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83D15C41C89C5E1008DE953 /* DyveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A83D15B61C89C5E1008DE953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83D159F1C89C5E0008DE953 /* Dyve */;
+			targetProxy = A83D15B51C89C5E1008DE953 /* PBXContainerItemProxy */;
+		};
+		A83D15C11C89C5E1008DE953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83D159F1C89C5E0008DE953 /* Dyve */;
+			targetProxy = A83D15C01C89C5E1008DE953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A83D15A71C89C5E1008DE953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83D15A81C89C5E1008DE953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A83D15AC1C89C5E1008DE953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83D15AD1C89C5E1008DE953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A83D15C61C89C5E1008DE953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A83D15C71C89C5E1008DE953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83D15C91C89C5E1008DE953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dyve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzino.Dyve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A83D15CA1C89C5E1008DE953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dyve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzino.Dyve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A83D15CC1C89C5E1008DE953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DyveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzino.DyveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyve.app/Dyve";
+			};
+			name = Debug;
+		};
+		A83D15CD1C89C5E1008DE953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DyveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzino.DyveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyve.app/Dyve";
+			};
+			name = Release;
+		};
+		A83D15CF1C89C5E1008DE953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DyveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzino.DyveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dyve;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A83D15D01C89C5E1008DE953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DyveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzino.DyveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dyve;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A83D159B1C89C5E0008DE953 /* Build configuration list for PBXProject "Dyve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D15C61C89C5E1008DE953 /* Debug */,
+				A83D15C71C89C5E1008DE953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83D15C81C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "Dyve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D15C91C89C5E1008DE953 /* Debug */,
+				A83D15CA1C89C5E1008DE953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A83D15CB1C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "DyveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D15CC1C89C5E1008DE953 /* Debug */,
+				A83D15CD1C89C5E1008DE953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A83D15CE1C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "DyveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D15CF1C89C5E1008DE953 /* Debug */,
+				A83D15D01C89C5E1008DE953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A83D15981C89C5E0008DE953 /* Project object */;
+}
