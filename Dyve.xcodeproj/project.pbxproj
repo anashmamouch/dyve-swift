@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A81EED7D1C8B1E2E00597110 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81EED7A1C8B1E2E00597110 /* Bolts.framework */; };
+		A81EED7E1C8B1E2E00597110 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81EED7B1C8B1E2E00597110 /* FBSDKCoreKit.framework */; };
+		A81EED7F1C8B1E2E00597110 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81EED7C1C8B1E2E00597110 /* FBSDKLoginKit.framework */; };
 		A83D15A41C89C5E1008DE953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15A31C89C5E1008DE953 /* AppDelegate.swift */; };
 		A83D15A61C89C5E1008DE953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15A51C89C5E1008DE953 /* ViewController.swift */; };
 		A83D15A91C89C5E1008DE953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83D15A71C89C5E1008DE953 /* Main.storyboard */; };
@@ -14,6 +17,15 @@
 		A83D15AE1C89C5E1008DE953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83D15AC1C89C5E1008DE953 /* LaunchScreen.storyboard */; };
 		A83D15B91C89C5E1008DE953 /* DyveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15B81C89C5E1008DE953 /* DyveTests.swift */; };
 		A83D15C41C89C5E1008DE953 /* DyveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15C31C89C5E1008DE953 /* DyveUITests.swift */; };
+		A83D15D21C89DF97008DE953 /* ProximaNova.otf in Resources */ = {isa = PBXBuildFile; fileRef = A83D15D11C89DF97008DE953 /* ProximaNova.otf */; };
+		A83D15DB1C89E0E8008DE953 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A83D15DA1C89E0E8008DE953 /* ProximaNova-Light.otf */; };
+		A83D15DD1C89E12D008DE953 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A83D15DC1C89E12D008DE953 /* ProximaNova-Bold.otf */; };
+		A83D15DF1C89E144008DE953 /* ProximaNova-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A83D15DE1C89E144008DE953 /* ProximaNova-Italic.otf */; };
+		A83D15E11C89E847008DE953 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15E01C89E847008DE953 /* MaterialView.swift */; };
+		A83D15E31C89E8BA008DE953 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15E21C89E8BA008DE953 /* Constants.swift */; };
+		A83D15E51C89EDDB008DE953 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15E41C89EDDB008DE953 /* MaterialButton.swift */; };
+		A83D15E71C89F304008DE953 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D15E61C89F304008DE953 /* MaterialTextField.swift */; };
+		FD5865288BE3B1CB513B6066 /* Pods_Dyve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79B833EB91BF3BAAF6426EE /* Pods_Dyve.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3912E5F097DE4091586D37C0 /* Pods-Dyve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dyve/Pods-Dyve.debug.xcconfig"; sourceTree = "<group>"; };
+		A81EED7A1C8B1E2E00597110 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A81EED7B1C8B1E2E00597110 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A81EED7C1C8B1E2E00597110 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		A83D15A01C89C5E1008DE953 /* Dyve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83D15A31C89C5E1008DE953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A83D15A51C89C5E1008DE953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,16 @@
 		A83D15BF1C89C5E1008DE953 /* DyveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83D15C31C89C5E1008DE953 /* DyveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyveUITests.swift; sourceTree = "<group>"; };
 		A83D15C51C89C5E1008DE953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83D15D11C89DF97008DE953 /* ProximaNova.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNova.otf; sourceTree = "<group>"; };
+		A83D15DA1C89E0E8008DE953 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
+		A83D15DC1C89E12D008DE953 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		A83D15DE1C89E144008DE953 /* ProximaNova-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Italic.otf"; sourceTree = "<group>"; };
+		A83D15E01C89E847008DE953 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A83D15E21C89E8BA008DE953 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A83D15E41C89EDDB008DE953 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		A83D15E61C89F304008DE953 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		C79B833EB91BF3BAAF6426EE /* Pods_Dyve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dyve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F857E2D4029738C7E84A5789 /* Pods-Dyve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyve.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dyve/Pods-Dyve.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81EED7D1C8B1E2E00597110 /* Bolts.framework in Frameworks */,
+				A81EED7E1C8B1E2E00597110 /* FBSDKCoreKit.framework in Frameworks */,
+				A81EED7F1C8B1E2E00597110 /* FBSDKLoginKit.framework in Frameworks */,
+				FD5865288BE3B1CB513B6066 /* Pods_Dyve.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +104,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0025B8B0A1FCEE5DCC0958D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C79B833EB91BF3BAAF6426EE /* Pods_Dyve.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D237D5823A2A883280DABB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3912E5F097DE4091586D37C0 /* Pods-Dyve.debug.xcconfig */,
+				F857E2D4029738C7E84A5789 /* Pods-Dyve.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A81EED791C8B1E1B00597110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A81EED7A1C8B1E2E00597110 /* Bolts.framework */,
+				A81EED7B1C8B1E2E00597110 /* FBSDKCoreKit.framework */,
+				A81EED7C1C8B1E2E00597110 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A83D15971C89C5E0008DE953 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +138,8 @@
 				A83D15B71C89C5E1008DE953 /* DyveTests */,
 				A83D15C21C89C5E1008DE953 /* DyveUITests */,
 				A83D15A11C89C5E1008DE953 /* Products */,
+				81D237D5823A2A883280DABB /* Pods */,
+				0025B8B0A1FCEE5DCC0958D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +156,12 @@
 		A83D15A21C89C5E1008DE953 /* Dyve */ = {
 			isa = PBXGroup;
 			children = (
+				A81EED791C8B1E1B00597110 /* Frameworks */,
+				A83D15D71C89E08D008DE953 /* Utils */,
+				A83D15D61C89E086008DE953 /* Resources */,
+				A83D15D31C89E051008DE953 /* Model */,
+				A83D15D51C89E065008DE953 /* View */,
+				A83D15D41C89E05C008DE953 /* Controller */,
 				A83D15A31C89C5E1008DE953 /* AppDelegate.swift */,
 				A83D15A51C89C5E1008DE953 /* ViewController.swift */,
 				A83D15A71C89C5E1008DE953 /* Main.storyboard */,
@@ -125,6 +190,49 @@
 			path = DyveUITests;
 			sourceTree = "<group>";
 		};
+		A83D15D31C89E051008DE953 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A83D15D41C89E05C008DE953 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A83D15D51C89E065008DE953 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A83D15E01C89E847008DE953 /* MaterialView.swift */,
+				A83D15E41C89EDDB008DE953 /* MaterialButton.swift */,
+				A83D15E61C89F304008DE953 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A83D15D61C89E086008DE953 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A83D15DE1C89E144008DE953 /* ProximaNova-Italic.otf */,
+				A83D15DC1C89E12D008DE953 /* ProximaNova-Bold.otf */,
+				A83D15DA1C89E0E8008DE953 /* ProximaNova-Light.otf */,
+				A83D15D11C89DF97008DE953 /* ProximaNova.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A83D15D71C89E08D008DE953 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A83D15E21C89E8BA008DE953 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A83D15C81C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "Dyve" */;
 			buildPhases = (
+				1F70D8C2A9774140E49B2591 /* Check Pods Manifest.lock */,
 				A83D159C1C89C5E0008DE953 /* Sources */,
 				A83D159D1C89C5E0008DE953 /* Frameworks */,
 				A83D159E1C89C5E0008DE953 /* Resources */,
+				56BD37AAA58DD4A3DEEC3900 /* Embed Pods Frameworks */,
+				E2210FF8B76C31F39FFA626D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +341,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A83D15AE1C89C5E1008DE953 /* LaunchScreen.storyboard in Resources */,
+				A83D15DF1C89E144008DE953 /* ProximaNova-Italic.otf in Resources */,
+				A83D15DD1C89E12D008DE953 /* ProximaNova-Bold.otf in Resources */,
+				A83D15D21C89DF97008DE953 /* ProximaNova.otf in Resources */,
 				A83D15AB1C89C5E1008DE953 /* Assets.xcassets in Resources */,
 				A83D15A91C89C5E1008DE953 /* Main.storyboard in Resources */,
+				A83D15DB1C89E0E8008DE953 /* ProximaNova-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +366,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F70D8C2A9774140E49B2591 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56BD37AAA58DD4A3DEEC3900 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dyve/Pods-Dyve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2210FF8B76C31F39FFA626D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dyve/Pods-Dyve-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A83D159C1C89C5E0008DE953 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83D15E71C89F304008DE953 /* MaterialTextField.swift in Sources */,
+				A83D15E11C89E847008DE953 /* MaterialView.swift in Sources */,
 				A83D15A61C89C5E1008DE953 /* ViewController.swift in Sources */,
 				A83D15A41C89C5E1008DE953 /* AppDelegate.swift in Sources */,
+				A83D15E31C89E8BA008DE953 /* Constants.swift in Sources */,
+				A83D15E51C89EDDB008DE953 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,8 +564,14 @@
 		};
 		A83D15C91C89C5E1008DE953 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3912E5F097DE4091586D37C0 /* Pods-Dyve.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dyve",
+				);
 				INFOPLIST_FILE = Dyve/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.benzino.Dyve;
@@ -408,8 +581,14 @@
 		};
 		A83D15CA1C89C5E1008DE953 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F857E2D4029738C7E84A5789 /* Pods-Dyve.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dyve",
+				);
 				INFOPLIST_FILE = Dyve/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.benzino.Dyve;
@@ -484,6 +663,7 @@
 				A83D15CA1C89C5E1008DE953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83D15CB1C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "DyveTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +672,7 @@
 				A83D15CD1C89C5E1008DE953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A83D15CE1C89C5E1008DE953 /* Build configuration list for PBXNativeTarget "DyveUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +681,7 @@
 				A83D15D01C89C5E1008DE953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
