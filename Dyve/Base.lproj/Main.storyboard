@@ -138,7 +138,7 @@
                                         </constraints>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hCO-CE-05G" customClass="MaterialTextField" customModule="Dyve" customModuleProvider="target">
                                         <rect key="frame" x="16" y="108" width="529" height="30"/>
@@ -148,7 +148,7 @@
                                         </constraints>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAh-ZL-Grf" customClass="MaterialButton" customModule="Dyve" customModuleProvider="target">
                                         <rect key="frame" x="185" y="208" width="190" height="27"/>
@@ -161,6 +161,9 @@
                                         <state key="normal" title="Login / Signup">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bxs-e2-7se"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -205,10 +208,33 @@
                             <constraint firstItem="bIV-Ii-ncM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="pdi-CU-KLq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="vH6-aV-V4S" id="NBy-Qc-dhC"/>
+                        <outlet property="passwordField" destination="hCO-CE-05G" id="ztj-cQ-Ixo"/>
+                        <segue destination="acr-KY-WU3" kind="show" identifier="loggedIn" id="lb7-nc-O66"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="245" y="335"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4fI-HC-d2k">
+            <objects>
+                <viewController id="acr-KY-WU3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h7Q-PO-EnU"/>
+                        <viewControllerLayoutGuide type="bottom" id="64O-Zm-GEr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="spJ-5g-WQV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.98039221759999995" green="0.34901961679999999" blue="0.12549020350000001" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9X-hc-npN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018" y="335"/>
         </scene>
     </scenes>
     <resources>
