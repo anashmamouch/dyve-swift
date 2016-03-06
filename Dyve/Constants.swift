@@ -14,8 +14,19 @@ import UIKit
 //Views
 let SHADOW_COLOR: CGFloat = 157.0/255.0
 
-//Firebase
+/*
+* Firebase
+*/
+
+//Firebase url
 let FIREBASE_URL: String = "https://dyve.firebaseio.com/"
+let FIREBASE_URL_POSTS: String = FIREBASE_URL + FIREBASE_PROPERTY_POSTS
+let FIREBASE_URL_USERS: String = FIREBASE_URL + FIREBASE_PROPERTY_USERS
+
+//Firebase properties
+let FIREBASE_PROPERTY_POSTS: String = "posts"
+let FIREBASE_PROPERTY_USERS: String = "users"
+
 
 //Keys
 let KEY_UID = "uid"
